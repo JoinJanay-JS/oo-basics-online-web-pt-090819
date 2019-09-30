@@ -7,7 +7,7 @@ class Shoe
   end
  
   def condition
-    puts "She has been repaired"
+    puts "Shoe has been repaired"
   end
  
 end
