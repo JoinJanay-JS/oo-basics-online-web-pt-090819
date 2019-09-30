@@ -12,4 +12,4 @@ class Shoe
  
 end
 
-Shoe.new("the shoe has been repaired")
+cobble.new("the shoe has been repaired")
