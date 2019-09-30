@@ -11,3 +11,5 @@ class Shoe
   end
  
 end
+
+cobble.Shoe
