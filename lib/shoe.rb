@@ -6,7 +6,7 @@ class Shoe
     @brand = brand
   end
  
-  def condition
+  def cobble
     puts "Shoe has been repaired"
   end
  
