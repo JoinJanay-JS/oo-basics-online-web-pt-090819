@@ -7,6 +7,7 @@ class Shoe
   end
  
   def cobble
+    condition.new
     puts "Shoe has been repaired"
   end
  
