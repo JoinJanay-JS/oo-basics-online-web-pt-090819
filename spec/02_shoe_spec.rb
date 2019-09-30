@@ -36,31 +36,7 @@ describe 'Shoe' do
 
   describe '#cobble' do
     it 'says that the shoe has been repaired' do
-      expect($stdout).to receive(:puts).with("class Book
-  attr_accessor :author, :page_count, :genre
-  attr_reader :title
- 
-  def initialize(title)
-    @title = title
-  end
- 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
- 
-endclass Book
-  attr_accessor :author, :page_count, :genre
-  attr_reader :title
- 
-  def initialize(title)
-    @title = title
-  end
- 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
- 
-end")
+      expect($stdout).to receive(:puts).with("Your shoe is good as new")
       shoe.cobble
     end
 
